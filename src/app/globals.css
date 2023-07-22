@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*----- font */
+@layer base {
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+body {
+  color: #323232;
+  /* background: #faf8f4; */
+  /* background: #fcfbf7; */
+  /* background: #f9fbfd; */
+  background-color: #f9fffe;
+}
+/* selection */
+::selection {
+  background-color: #317b74;
+  color: white;
+}
+/* Scroll bar x-card */
+.cardScroll::-webkit-scrollbar {
+  display: none;
+}
