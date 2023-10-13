@@ -12,9 +12,9 @@ export default function Header() {
   return (
     <div className="flex flex-col justify-center text-center mx-auto md:w-[90%] lg:w-[80%] space-y-5 items-center h-screen" data-aos="zoom-in">
       {/* <!-- == text header ==--> */}
-      <p className=" leading-relaxed text-sm md:text-2xl text-primary font-semibold">Pusat Kegiatan Belajar Masyarakat</p>
-      <h1 className="!mt-2 font-bold text-3xl leading-10 lg:text-5xl lg:leading-tight lg:-tracking-tight capitalize"> Gelora Nusantara Wonosobo.</h1>
-      <p className=" leading-relaxed lg:text-lg text-gray lg:w-[70%]">
+      <h1 className=" leading-relaxed text-sm md:text-2xl text-primary font-semibold">Pusat Kegiatan Belajar Masyarakat (PKBM)</h1>
+      <h2 className="!mt-2 font-bold text-3xl leading-10 lg:text-5xl lg:leading-tight lg:-tracking-tight capitalize"> Gelora Nusantara Wonosobo.</h2>
+      <p className=" leading-relaxed lg:text-base text-gray lg:max-w-3xl">
         Gelora Nusantara, hadir untuk memberikan kesempatan emas bagi Anda yang ingin mengejar impian dan meraih keberhasilan. Sebagai Pusat Kegiatan Belajar Masyarakat di Wonosobo.
       </p>
       <div className="flex flex-col md:flex-row w-full space-y-3 md:space-y-0 md:space-x-5 items-center  justify-center ">

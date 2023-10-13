@@ -9,7 +9,7 @@ import PAKET_LIST from '@/utils/PAKET_LIST';
 export default function NavListMenu() {
   const pathname = usePathname();
   return (
-    <ul className=" flex  text-black font-semibold items-center  px-10 text-sm md:text-base space-x-10 md:space-x-14 ">
+    <ul className=" flex  text-black font-semibold items-center  px-10 text-sm md:text-sm space-x-10 md:space-x-8 ">
       {MENU_LIST.map((post) => (
         <li key={post.slug} className={pathname === post.slug ? 'text-primary font-semibold' : 'text-black'}>
           <Link href={`${post.slug}`} className="w-full">

@@ -9,9 +9,9 @@ export default function VisiMisi() {
   }, []);
 
   return (
-    <div className="flex container  md:mb-28 -mt-16 md:mt-0   text-center md:text-left flex-col-reverse lg:flex-row  justify-between lg:items-start items-center">
+    <div className="flex container lg:max-w-6xl md:mb-28 -mt-16 md:mt-0   text-center md:text-left flex-col-reverse lg:flex-row  justify-between lg:items-start items-center">
       {/* <!-- == img header ==--> */}
-      <div className=" w-fit mt-10 lg:mt-0 " data-aos="fade-right">
+      <div className=" w-fit mt-10 lg:mt-0 lg:-ml-48 " data-aos="fade-right">
         <div className=" lg:w-[33rem] md:w-full">
           <Image src="/visiMisi.jpg" width={500} height={500} className="object-cover object-top md:w-[20rem] rounded-xl aspect-[2/3] shadow-xl  ml-auto" alt="" />
         </div>
@@ -20,11 +20,11 @@ export default function VisiMisi() {
       {/* <!-- == text header ==--> */}
       <div className="lg:pl-20 space-y-3 md:space-y-6  lg:pt-0 h-full lg:flex lg:flex-col lg:items-start lg:justify-end lg:border-r-0" data-aos="fade-left">
         {/* <p className=" leading-relaxed lg:text-base text-primary font-semibold italic">Visi&Misi PKMB Glora Nusantara</p> */}
-       <div>
-       <h1 className=" font-bold text-3xl leading-10 lg:text-5xl lg:leading-tight lg:-tracking-tight capitalize">Visi&Misi PKBM  </h1>
-        <span className='font-bold text-4xl'>Gelora Nusantara</span>
-       </div>
-        <p className=" leading-relaxed lg:text-lg text-gray lg:w-[100%]">Saatnya berani bermimpi dan mengambil langkah maju menuju kesuksesan. Bersama Gelora Nusantara, mari wujudkan impian dan raih prestasi gemilang.</p>
+        <div>
+          <h1 className=" font-bold text-3xl leading-10 lg:text-4xl lg:leading-tight lg:-tracking-tight capitalize">Visi&Misi PKBM </h1>
+          <span className="font-bold text-4xl">Gelora Nusantara</span>
+        </div>
+        <p className=" leading-relaxed lg:text-base text-gray lg:max-w-2xl">Saatnya berani bermimpi dan mengambil langkah maju menuju kesuksesan. Bersama Gelora Nusantara, mari wujudkan impian dan raih prestasi gemilang.</p>
       </div>
     </div>
   );

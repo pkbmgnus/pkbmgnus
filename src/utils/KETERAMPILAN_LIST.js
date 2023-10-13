@@ -1,6 +1,6 @@
 const KETERAMPILAN_LIST = [
   {
-    keterampilan: 'Kursus Keterampilan Menjahit',
+    keterampilan: 'Keterampilan Menjahit',
     desc: [
       'Kursus Keterampilan Menjahit di Gelora Nusantara adalah peluang tak ternilai untuk mengeksplorasi dunia fashion dan desain busana. Dalam kursus ini, peserta didik akan dipandu oleh instruktur berpengalaman yang akan mengajarkan teknik dasar hingga tingkat lanjutan dalam menjahit. Mulai dari mengukur pola, memotong kain, menjahit dengan mesin, hingga menyelesaikan pakaian, semua aspek yang diperlukan untuk menciptakan pakaian berkualitas tinggi akan dipelajari dengan cermat.',
       'Peserta juga akan memahami berbagai bahan kain, motif, dan gaya desain untuk menciptakan busana unik yang mencerminkan kreativitas mereka. Dengan memperoleh keterampilan menjahit yang solid, peserta didik akan merasa percaya diri untuk membuat pakaian sendiri, merombak pakaian lama menjadi kreasi baru, atau bahkan membuka usaha jasa penjahitan.',
@@ -18,7 +18,7 @@ const KETERAMPILAN_LIST = [
     slug: '/keterampilan/menjahit',
   },
   {
-    keterampilan: 'Kursus Keterampilan Handicraft',
+    keterampilan: 'Keterampilan Handicraft',
     desc: [
       'Kursus Keterampilan Handicraft di Gelora Nusantara menawarkan kesempatan bagi peserta didik untuk mengekspresikan kreativitas melalui kerajinan tangan yang indah dan unik. Dalam kursus ini, peserta akan belajar berbagai teknik seni rupa, seperti kerajinan kertas, origami, rajut, anyaman, dan banyak lagi. Instruktur kami akan membimbing peserta dalam menghasilkan karya seni yang eksklusif dan bernilai tinggi. Selain itu, peserta juga akan memahami prinsip desain, estetika warna, dan konsep artistik untuk menciptakan produk handicraft yang memikat dan menginspirasi. ',
       ' Kursus Keterampilan Handicraft ini merupakan kesempatan sempurna bagi siapa pun yang ingin mengisi waktu luang dengan aktivitas yang menyenangkan, menghasilkan hadiah kreatif untuk orang tercinta, atau bahkan menjadikan keterampilan ini sebagai sumber pendapatan dengan menjual kreasi mereka melalui pasar online atau pameran seni.',
@@ -36,7 +36,7 @@ const KETERAMPILAN_LIST = [
     slug: '/keterampilan/handicraft',
   },
   {
-    keterampilan: 'Kursus Keterampilan Komputer',
+    keterampilan: 'Keterampilan Komputer',
     desc: [
       'Kursus Keterampilan Komputer di Gelora Nusantara memperkenalkan dunia teknologi modern dan membantu peserta didik menguasai keahlian yang relevan di era digital. Dalam kursus ini, peserta akan belajar dasar-dasar komputer, penggunaan internet, dan aplikasi produktivitas seperti pengolahan kata, spreadsheet, dan presentasi.',
       'Selain itu, peserta juga akan diperkenalkan ke dunia pemrograman dan desain grafis, sehingga mampu menciptakan situs web sederhana, aplikasi, atau desain visual menarik. Instruktur kami yang berpengalaman akan memberikan panduan interaktif dan latihan praktis untuk membantu peserta mengembangkan kemampuan teknis dan meningkatkan efisiensi kerja mereka. Kursus Keterampilan Komputer ini merupakan investasi berharga untuk siapa saja yang ingin menghadapi tantangan dunia kerja yang semakin tergantung pada teknologi.',
@@ -55,7 +55,7 @@ const KETERAMPILAN_LIST = [
   },
 
   {
-    keterampilan: 'Kursus Keterampilan Tataboga',
+    keterampilan: 'Keterampilan Tataboga',
     desc: [
       'Kursus Keterampilan Tataboga di Gelora Nusantara akan membuka pintu kepada peserta untuk memasuki dunia kuliner yang menggugah selera. Dalam kursus ini, peserta akan belajar dasar-dasar memasak, teknik potong bahan makanan, perpaduan rasa, dan presentasi hidangan yang menarik. Instruktur kami yang ahli akan mengajarkan resep-resep autentik dari berbagai masakan, sehingga peserta akan terampil dalam menyajikan hidangan Indonesia dan internasional. ',
       'Selain itu, peserta juga akan dikenalkan dengan seni penyajian makanan yang cantik, yang akan menambah daya tarik visual pada setiap hidangan. Kursus Keterampilan Tataboga ini merupakan pilihan tepat bagi mereka yang menyukai seni kuliner, ingin menjadi chef handal, atau bahkan membuka usaha kuliner sendiri. Dengan pengetahuan dan keterampilan dari kursus ini, peserta akan memiliki daya saing di industri makanan yang selalu berkembang pesat.',

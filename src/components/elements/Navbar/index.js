@@ -43,7 +43,7 @@ export default function Nav() {
         </div>
         <div className="flex items-center flex-row sm:right-0">
           <Link className={'w-full md:w-fit'} target="_blank" href={LINK_REDIRECT[0].link} aria-label="pkbmgnus">
-            <ButtonLight addClass={'hidden  text-sm lg:flex lg:items-center'}>
+            <ButtonLight addClass={'hidden bg-secondary text-white text-sm lg:flex lg:items-center'}>
               Hubungi
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 ml-2">

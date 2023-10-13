@@ -5,42 +5,28 @@ import KETERAMPILAN_LIST from '@/utils/KETERAMPILAN_LIST';
 import LINK_REDIRECT from '@/utils/LINK_REDIRECT';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import MetaData from '@/components/metaData/MetaData';
 
 // Metadata
 export async function generateMetadata({ params }) {
-  // read route params
   const [keterampilan] = params.slug;
 
-  const filteredketerampilanList = KETERAMPILAN_LIST.filter((item) => item.slug === `/keterampilan/${keterampilan}`);
-
-  if (filteredketerampilanList.length === 0) {
-    return notFound();
-  }
-
-  //   Since we used filter, filteredketerampilanList could still be an array, so we need to access the first element
-  const keterampilanItem = filteredketerampilanList[0];
-
-  // fetch data
   try {
-    return {
+    const filteredketerampilanList = KETERAMPILAN_LIST.filter((item) => item.slug === `/keterampilan/${keterampilan}`);
+
+    //   Since we used filter, filteredketerampilanList could still be an array, so we need to access the first element
+    const keterampilanItem = filteredketerampilanList[0];
+    const datas = {
       title: `${keterampilanItem.keterampilan}`,
-      description: [keterampilanItem.desc],
-      openGraph: {
-        title: `${keterampilanItem.keterampilan} | PKBM Gelora Nusantara`,
-        description: [keterampilanItem.desc],
-      },
-      alternates: {
-        canonical: `${keterampilanItem.keterampilan}`,
-        languages: {
-          'en-US': `/keterampilan/${keterampilanItem.keterampilan}`,
-          'de-DE': `/keterampilan/${keterampilanItem.keterampilan}`,
-        },
-      },
+      desc: [keterampilanItem.desc],
+      url: `/keterampilan/${keterampilanItem.keterampilan}`,
+      img: keterampilanItem.img,
     };
+    return MetaData(datas);
   } catch (error) {
     return {
       title: 'Not Found',
-      description: 'The page you are looking for does not axist',
+      description: 'The page you are looking for does not exist',
     };
   }
 }
@@ -65,7 +51,7 @@ export default function Keterampilan({ params }) {
           style={{
             backgroundImage: `url(${keterampilanItem.img})`,
           }}
-          className={`w-full bg-cover bg-center h-[14rem] md:h-[19rem] rounded-xl  md:rounded-se-full  md:rounded-ee-full`}
+          className={`w-full bg-cover bg-center h-[14rem] md:h-[19rem] lg:h-[14rem] rounded-xl  md:rounded-se-full  md:rounded-ee-full`}
         >
           <div className="h-full w-full text-white font-bold text-5xl rounded-xl   md:rounded-se-full  md:rounded-ee-full   flex flex-col items-center justify-center bg-darkPrimary/20 md:bg-darkPrimary/50  ">
             <h1 className={'hidden md:block text-center'}>{keterampilanItem.keterampilan}</h1>
