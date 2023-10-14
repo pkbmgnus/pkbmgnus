@@ -2,8 +2,7 @@
 const nextConfig = {};
 // const withFonts = require('next-fonts');
 module.exports = {
-  // output: 'out',
-  output: 'export',
+   output: 'out',
   images: {
     remotePatterns: [
       {
