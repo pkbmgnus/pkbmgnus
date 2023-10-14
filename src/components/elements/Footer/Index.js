@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="px-4 divide-y border-t border-gray text-white bg-darkPrimary  ">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
-          <Link  rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
+          <Link rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
             <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
               <Image property="true" src={'/logo.png'} alt="Logo PKBM Glora Nusantara" height={500} width={500} className="h-auto w-12" />
             </div>
@@ -21,12 +21,11 @@ export default function Footer() {
           </Link>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-5/6 sm:grid-cols-4">
-      
           <div className="space-y-3">
             <h3 className="tracki uppercase font-semibold ">Paket PKBM</h3>
             <ul className="space-y-1">
-              {PAKET_LIST.map((post) => (
-                <li key={post.keterampilan}>
+              {PAKET_LIST.map((post, idx) => (
+                <li key={idx}>
                   <Link className="text-white/80 hover:text-white" rel="noopener noreferrer" href={`${post.slug}`}>
                     {post.title}
                   </Link>
@@ -34,7 +33,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-              <div className="space-y-3">
+          <div className="space-y-3">
             <h3 className="tracki uppercase font-semibold ">Sub Menu</h3>
             <ul className="space-y-1">
               <li>
@@ -52,8 +51,8 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="uppercase font-semibold ">Keterampilan</h3>
             <ul className="space-y-1">
-              {KETERAMPILAN_LIST.map((post) => (
-                <li key={post.keterampilan}>
+              {KETERAMPILAN_LIST.map((post, idx) => (
+                <li key={idx}>
                   <Link className="text-white/80 hover:text-white" rel="noopener noreferrer" href={`${post.slug}`}>
                     {post.keterampilan}
                   </Link>
@@ -64,8 +63,8 @@ export default function Footer() {
           <div className="space-y-3 pl-4">
             <div className="uppercase font-semibold ">Kontak</div>
             <div className="flex justify-start space-x-3">
-              {LINK_REDIRECT.map((post) => (
-                <Link key={post.link} rel="noopener noreferrer" href={post.link} title={post.name} className="flex items-center p-1">
+              {LINK_REDIRECT.map((post, idx) => (
+                <Link key={idx} rel="noopener noreferrer" href={post.link} title={post.name} className="flex items-center p-1">
                   <Image src={post.svg} width={100} height={100} alt={post.link} className="w-6 h-6 fill-current" />
                 </Link>
               ))}

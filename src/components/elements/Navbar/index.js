@@ -35,11 +35,19 @@ export default function Nav() {
   return (
     <nav className={` z-50 py-4 capitalize  fixed top-0 left-0 right-0 transition-all duration-300 z-20bg-transparent  ${isScrolled ? 'bg-white  backdrop-blur-2xl bg-opacity-80' : ''} shadow`}>
       <section className="flex container flex-row justify-between items-center ">
-        <Link href={'/'} className=" md:w-48 " aria-label="Logo">
-          <Image property="true" src={'/logo.png'} alt="Logo PKBM Glora Nusantara" height={500} width={500} className="h-auto w-12" />
-        </Link>
-        <div className="hidden lg:flex  flex-row  justify-center  ">
-          <NavListMenu />
+        <div className=" flex flex-row justify-center items-center">
+          <Link rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
+              <Image property="true" src={'/logo.png'} alt="Logo PKBM Glora Nusantara" height={500} width={500} className="h-auto w-11" />
+            </div>
+            <div className="flex flex-col justify-center ">
+              <h4 className="self-center text-base font-semibold">PKBMGNUS</h4>
+              <span className="tracking-widest text-xs -mt-1">Wonosobo</span>
+            </div>
+          </Link>
+          <div className="hidden lg:flex  flex-row  justify-center  ">
+            <NavListMenu />
+          </div>
         </div>
         <div className="flex items-center flex-row sm:right-0">
           <Link className={'w-full md:w-fit'} target="_blank" href={LINK_REDIRECT[0].link} aria-label="pkbmgnus">

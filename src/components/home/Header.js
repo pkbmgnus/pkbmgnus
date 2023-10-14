@@ -25,7 +25,7 @@ export default function Header() {
         </div>
       </div>
       {/* <!-- == img header ==--> */}
-      <div className=" w-fit mt-10 lg:mt-0 " data-aos="zoom-in">
+      <div className=" w-fit mt-10 lg:mt-0 md:hidden lg:block " data-aos="zoom-in">
         <div className=" lg:w-[26rem] md:w-full">
           <Image src="/heroo.jpg" width={500} height={500} className="object-cover brightness-110 object-bottom shadow-2xl lg:aspect-[5/4] md:aspect-[2/1] aspect-[4/3]  md:w-[50rem] rounded-2xl md:rounded-3xl  ml-auto" alt="" />
         </div>
