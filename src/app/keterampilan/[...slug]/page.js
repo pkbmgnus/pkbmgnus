@@ -7,12 +7,6 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import MetaData from '@/components/metaData/MetaData';
 
-export async function generateStaticParams() {
-  return KETERAMPILAN_LIST.map((post) => ({
-    slug: post.params,
-  }));
-}
-
 // Metadata
 export async function generateMetadata({ params }) {
   const [keterampilan] = params.slug;
