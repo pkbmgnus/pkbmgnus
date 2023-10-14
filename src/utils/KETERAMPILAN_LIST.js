@@ -16,6 +16,7 @@ const KETERAMPILAN_LIST = [
       </svg>
     ),
     slug: '/keterampilan/menjahit',
+    params: 'menjahit',
   },
   {
     keterampilan: 'Keterampilan Handicraft',
@@ -34,6 +35,7 @@ const KETERAMPILAN_LIST = [
       </svg>
     ),
     slug: '/keterampilan/handicraft',
+    params: 'handicraft',
   },
   {
     keterampilan: 'Keterampilan Komputer',
@@ -52,6 +54,7 @@ const KETERAMPILAN_LIST = [
       </svg>
     ),
     slug: '/keterampilan/komputer',
+    params: 'komputer',
   },
 
   {
@@ -71,6 +74,7 @@ const KETERAMPILAN_LIST = [
       </svg>
     ),
     slug: '/keterampilan/tataboga',
+    params: 'tataboga',
   },
 ];
 
