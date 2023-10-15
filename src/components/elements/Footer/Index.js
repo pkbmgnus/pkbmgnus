@@ -8,7 +8,7 @@ import LINK_REDIRECT from '@/utils/LINK_REDIRECT';
 export default function Footer() {
   return (
     <footer className="px-4 divide-y border-t border-gray text-white bg-darkPrimary  ">
-      <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+      <div className="container flex flex-col justify-between items-start py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <Link rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
             <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">

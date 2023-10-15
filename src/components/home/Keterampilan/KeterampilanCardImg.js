@@ -12,9 +12,9 @@ export default function KeterampilanCardImg() {
 
   return (
     <section className="container space-y-5 mt-20 mb-20 lg:my-40 lg:mt-32 md:mb-32 ">
-      <div className="text-center mx-auto md:w-[70%] lg:w-[50rem] space-y-5">
-        <h2 className="font-bold lg:text-4xl md:text-3xl text-2xl  -tracking-tight" data-aos={'zoom-in'}>
-          Kursus Keterampilan yang menawarkan peluang untuk berkembang.
+      <div className="text-center flex items-center justify-center flex-col mx-auto md:w-[70%] lg:w-[50rem] space-y-5">
+        <h2 className="font-bold lg:text-4xl lg:max-w-xl md:text-3xl text-2xl  -tracking-tight" data-aos={'zoom-in'}>
+          Kursus Keterampilan peluang untuk berkembang.
         </h2>
         <p className="text-gray text-base md:text-base  lg:w-[90%] mx-auto" data-aos={'zoom-in'}>
           Semangat kreativitas dan inovasi melalui beragam Kursus Keterampilan, Temukan bakat tersembunyi melalui pilihan 4 Kursus Keterampilan
