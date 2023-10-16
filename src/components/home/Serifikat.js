@@ -9,7 +9,7 @@ export default function Sertifikat() {
   }, []);
 
   return (
-    <div className="flex lg:max-w-6xl container text-center md:text-left my-16 md:my-28 md:mt-24 lg:mt-44  flex-col md:flex-col-reverse lg:flex-row  justify-between lg:items-start items-center">
+    <div className="flex lg:max-w-6xl container lg:text-center md:text-left my-16 md:my-28 md:mt-24 lg:mt-44  flex-col md:flex-col-reverse lg:flex-row  justify-between lg:items-start">
       {/* <!-- == text header ==--> */}
       <div className="lg:px-0 lg:max-w-3xl space-y-3 md:space-y-6 pt-12 lg:pt-0 h-full lg:flex lg:flex-col lg:items-start lg:justify-end lg:border-r-0">
         <p className=" leading-relaxed lg:text-base text-primary font-semibold italic">Sertifikat Akreditasi</p>

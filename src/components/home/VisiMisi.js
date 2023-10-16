@@ -9,7 +9,7 @@ export default function VisiMisi() {
   }, []);
 
   return (
-    <div className="flex container lg:max-w-6xl md:mb-28 -mt-16 md:mt-0   text-center md:text-left flex-col-reverse lg:flex-row  justify-between lg:items-start items-center">
+    <div className="flex container lg:max-w-6xl md:mb-28 -mt-16 md:mt-0   lg:text-center md:text-left flex-col-reverse lg:flex-row  justify-between lg:items-start items-center">
       {/* <!-- == img header ==--> */}
       <div className=" w-fit mt-10 lg:mt-0 lg:-ml-48 " data-aos="fade-right">
         <div className=" lg:w-[33rem] md:w-full">

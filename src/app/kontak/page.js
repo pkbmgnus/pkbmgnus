@@ -24,8 +24,8 @@ export async function generateMetadata({ params }) {
 export default function Kontak() {
   return (
     <div className="container mt-28 md:mt-36  space-y-3 md:space-y-5 pb-6">
-      <h1 className="font-bold text-3xl md:text-4xl lg:text-3xl text-center pt-5">Kontak</h1>
-      <ul className=" pb-24 rounded-lg w-fit flex flex-col justify-around items-start space-y-9 mx-auto  p-14 px-10 md:px-10  md:flex-row md:items-center  md:space-y-0 md:w-full">
+      <h1 className=" font-bold text-3xl md:text-4xl lg:text-3xl lg:text-center pt-5">Kontak</h1>
+      <ul className=" pb-24 rounded-lg w-fit flex flex-col justify-around items-start space-y-9 lg:mx-auto  p-14 px-0 md:px-0  md:flex-row md:items-center  md:space-y-0 md:w-full">
         <li>
           <Link href={LINK_REDIRECT[1].link} target="_blank" className=" flex flex-row items-center justify-between w-fit space-x-4">
             <div className={`h-14 w-14 bg-primary text-white font-bold text-4xl md:text-3xl lg-text-4xl rounded-xl flex items-center justify-center`}>
@@ -60,6 +60,7 @@ export default function Kontak() {
           </Link>
         </li>
       </ul>
+      <h2 className="font-bold text-2xl md:text-4xl lg:text-3xl">Alamat</h2>
       <p className="text-base md:text-base ">Jl. Raya Parakan - Wonosobo No.37, Gondang, Candimulyo, Kec. Kertek, Kabupaten Wonosobo, Jawa Tengah 56371</p>
       <Map />
     </div>

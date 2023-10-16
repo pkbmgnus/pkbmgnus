@@ -10,7 +10,7 @@ export default function Keterampilan() {
 
   return (
     <section className=" space-y-5 my-20 lg:my-40  flex flex-col justify-center items-center  ">
-      <div className="text-center !mx-auto md:w-[80%] lg:w-[100%] space-y-5 container">
+      <div className="lg:text-center !mx-auto md:w-[80%] lg:w-[100%] space-y-5 container">
         <h2 className="font-bold !mx-auto lg:max-w-3xl lg:text-3xl md:text-3xl text-2xl -tracking-tight" data-aos={'zoom-in'}>
           Kembangkan Diri, Berkarya Nyata, Menuju Prestasi Terbaik
         </h2>
